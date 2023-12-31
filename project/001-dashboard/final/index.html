@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Frontend Mentor | <div Social="" Media="" Dashbaord=""></div></title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__text-box">
+          <h1 class="header__primary">Social Media Dashboard</h1>
+          <span class="header__sec"> Total Followers: 23,004 </span>
+        </div>
+        <div class="header__toggle">
+          <span> Dark Mode </span>
+          <input type="checkbox" id="toggle" />
+          <label for="toggle"></label>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="highlight highlight--facebook">
+            <div class="highlight__user">
+              <img
+                src="images/icon-facebook.svg"
+                alt="facebook image"
+                class="highlight__icon"
+              />
+              <span class="highlight__user--name"> @nathanf </span>
+            </div>
+            <div class="highlight__count">
+              <h2 class="highlight__count--number">1987</h2>
+              <p class="highlight__count--text">Followers</p>
+            </div>
+
+            <div class="highlight__progress">
+              <span class="highlight__progress--label">12 Today</span>
+              <img
+                src="images/icon-up.svg"
+                alt="up icon"
+                class="highlight__progress--image"
+              />
+            </div>
+          </div>
+          <div class="highlight highlight--twitter">
+            <div class="highlight__user">
+              <img
+                src="images/icon-twitter.svg"
+                alt="facebook image"
+                class="highlight__icon"
+              />
+              <span class="highlight__user--name"> @nathanf </span>
+            </div>
+            <div class="highlight__count">
+              <h2 class="highlight__count--number">1044</h2>
+              <p class="highlight__count--text">Followers</p>
+            </div>
+
+            <div class="highlight__progress">
+              <span class="highlight__progress--label">99 Today</span>
+              <img
+                src="images//icon-up.svg"
+                alt="up icon"
+                class="highlight__progress--image"
+              />
+            </div>
+          </div>
+          <div class="highlight highlight--instagram">
+            <div class="highlight__user">
+              <img
+                src="images/icon-instagram.svg"
+                alt="facebook image"
+                class="highlight__icon"
+              />
+              <span class="highlight__user--name"> @realnathanf </span>
+            </div>
+            <div class="highlight__count">
+              <h2 class="highlight__count--number">11K</h2>
+              <p class="highlight__count--text">Followers</p>
+            </div>
+
+            <div class="highlight__progress">
+              <span class="highlight__progress--label">1099 Today</span>
+              <img
+                src="images/icon-up.svg"
+                alt="up icon"
+                class="highlight__progress--image"
+              />
+            </div>
+          </div>
+          <div class="highlight highlight--youtube">
+            <div class="highlight__user">
+              <img
+                src="images//icon-youtube.svg"
+                alt="facebook image"
+                class="highlight__icon"
+              />
+              <span class="highlight__user--name">Nathan F. </span>
+            </div>
+            <div class="highlight__count">
+              <h2 class="highlight__count--number">8239</h2>
+              <p class="highlight__count--text">Subscribers</p>
+            </div>
+
+            <div class="highlight__progress down">
+              <span class="highlight__progress--label">144 Today</span>
+              <img
+                src="images/icon-down.svg"
+                alt="up icon"
+                class="highlight__progress--image"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="overview">
+          <h2>Overview - Today</h2>
+          <div class="overview__items">
+            <div class="card">
+              <div class="card__top">
+                <div class="card--label">Page Views</div>
+                <img
+                  src="images/icon-facebook.svg"
+                  alt="facebook"
+                  class="card--icon"
+                />
+              </div>
+              <div class="card__bottom">
+                <div class="card--count">87</div>
+                <div class="card__trend">
+                  <img
+                    src="images/icon-up.svg"
+                    alt="up icon"
+                    class="card__trend--icon"
+                  />
+                  <span class="card__trend--percent">3%</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__top">
+                <div class="card--label">Likes</div>
+                <img
+                  src="images/icon-facebook.svg"
+                  alt="facebook"
+                  class="card--icon"
+                />
+              </div>
+              <div class="card__bottom">
+                <div class="card--count">52</div>
+                <div class="card__trend">
+                  <img
+                    src="images/icon-down.svg"
+                    alt="up icon"
+                    class="card__trend--icon"
+                  />
+                  <span class="card__trend--percent down">2%</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__top">
+                <div class="card--label">Likes</div>
+                <img
+                  src="images/icon-instagram.svg"
+                  alt="facebook"
+                  class="card--icon"
+                />
+              </div>
+              <div class="card__bottom">
+                <div class="card--count">5462</div>
+                <div class="card__trend">
+                  <img
+                    src="images/icon-up.svg"
+                    alt="up icon"
+                    class="card__trend--icon"
+                  />
+                  <span class="card__trend--percent">2257%</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__top">
+                <div class="card--label">Profile Views</div>
+                <img
+                  src="images/icon-instagram.svg"
+                  alt="facebook"
+                  class="card--icon"
+                />
+              </div>
+              <div class="card__bottom">
+                <div class="card--count">52K</div>
+                <div class="card__trend">
+                  <img
+                    src="images/icon-up.svg"
+                    alt="up icon"
+                    class="card__trend--icon"
+                  />
+                  <span class="card__trend--percent">1375%</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__top">
+                <div class="card--label">Retweets</div>
+                <img
+                  src="images/icon-twitter.svg"
+                  alt="facebook"
+                  class="card--icon"
+                />
+              </div>
+              <div class="card__bottom">
+                <div class="card--count">117</div>
+                <div class="card__trend">
+                  <img
+                    src="images/icon-up.svg"
+                    alt="up icon"
+                    class="card__trend--icon"
+                  />
+                  <span class="card__trend--percent">303%</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__top">
+                <div class="card--label">Likes</div>
+                <img
+                  src="images/icon-twitter.svg"
+                  alt="facebook"
+                  class="card--icon"
+                />
+              </div>
+              <div class="card__bottom">
+                <div class="card--count">507</div>
+                <div class="card__trend">
+                  <img
+                    src="images/icon-up.svg"
+                    alt="up icon"
+                    class="card__trend--icon"
+                  />
+                  <span class="card__trend--percent">5533%</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__top">
+                <div class="card--label">Likes</div>
+                <img
+                  src="images/icon-youtube.svg"
+                  alt="facebook"
+                  class="card--icon"
+                />
+              </div>
+              <div class="card__bottom">
+                <div class="card--count">107</div>
+                <div class="card__trend">
+                  <img
+                    src="images/icon-down.svg"
+                    alt="up icon"
+                    class="card__trend--icon"
+                  />
+                  <span class="card__trend--percent down">10%</span>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__top">
+                <div class="card--label">Total Views</div>
+                <img
+                  src="images/icon-youtube.svg"
+                  alt="facebook"
+                  class="card--icon"
+                />
+              </div>
+              <div class="card__bottom">
+                <div class="card--count">1407</div>
+                <div class="card__trend">
+                  <img
+                    src="images/icon-down.svg"
+                    alt="up icon"
+                    class="card__trend--icon"
+                  />
+                  <span class="card__trend--percent down">12%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <!--   1987 Followers 12 Today @nathanf
+    1044 Followers 99 Today  11k Followers 1099 Today Nathan F. 8239
+    Subscribers 144 Today   87 3% Likes 52 2% Likes
+    5462 2257% Profile Views 52k 1375% Retweets 117 303% Likes 507 553% Likes
+    107 19% Total Views 1407 12%
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+</html>
